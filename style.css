@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Playwrite+IS:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: poppins;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url(bg.jpg);
+  height: 70vh;
+  position: relative;
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+}
+.main .box {
+  height: 70vh;
+  width: 100%;
+  opacity: 0.69;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80vw;
+  margin: auto;
+  height: 65px;
+  padding: 20px;
+}
+
+nav img {
+  color: #e50914;
+  width: 150px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  font-family: "Martel Sans", sans-serif;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 115px;
+}
+.hero:first child {
+  font-weight: 900;
+  font-size: 60px;
+  text-align: center;
+}
+.separation {
+  height: 10px;
+  color: grey;
+}
+
+.red-button {
+  padding: 3px 24px;
+  font-weight: bold;
+  background-color: #e50914;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.red-button:hover {
+  background-color: #ad020b;
+  cursor: pointer;
+}
+.email {
+  width: 300px;
+
+  background-color: rgb(0, 0, 0);
+
+  color: inherit;
+  filter: opacity(30%);
+}
+.red-button,
+.email {
+  padding: 10px;
+}
+.button1 {
+  color: inherit;
+  filter: opacity(30%);
+  border: 1px solid white;
+  font-size: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.Secimg {
+  position: relative;
+}
+
+.Secimg image {
+  width: 30vw;
+  position: absolute;
+  z-index: 10;
+  height: fit-content;
+}
+.Secimg video {
+  position: absolute;
+  top: 100px;
+  right: 91PX;
+  width: 465PX;
+}
+section.first{
+  display: flex;
+}
+.first > :first-child(1
+
+
+
+
+
+
+
+
+
+
+
+
+) {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.first > :nth-child(2) {
+  font-size: 48px;
+ 
+}
